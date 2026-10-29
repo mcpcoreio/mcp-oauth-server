@@ -1,0 +1,19 @@
+{
+  "name": "mcp-oauth-server",
+  "version": "1.0.0",
+  "description": "Minimal OAuth 2.1 authorization server for MCP servers hosted on MCPCore.",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "dotenv": "18.0.9",
+    "express": "5.3.0"
+  }
+}
